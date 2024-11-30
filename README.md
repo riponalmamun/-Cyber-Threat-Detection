@@ -7,3 +7,8 @@ The CyberFedDefender dataset is a simulated dataset designed for developing and 
 Dataset Features:
 
 The dataset consists of 1,430 instances, with 23 features including information on packet size, duration, bytes sent/received, flow statistics, and attack labels. It covers common cyberattacks such as DDoS, Brute Force, and Ransomware, along with normal network traffic.
+
+
+GitHub Link: 
+Dataset Link: https://www.kaggle.com/datasets/hussainsheikh03/cyber-threat-detection
+
