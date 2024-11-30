@@ -81,7 +81,7 @@ Global Importance: Features such as Bytes Sent, Packets Received, and Duration w
 
 Local Explanations: Individual predictions were attributed to specific feature values, providing transparency in decision-making.
 
-3.	LIME Results:
+2.	LIME Results:
    
 	Instance-specific predictions revealed which features strongly influenced classification outcomes, enhancing interpretability.
 
