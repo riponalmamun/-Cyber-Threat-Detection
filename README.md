@@ -29,7 +29,7 @@ The increasing number of vulnerabilities to cyber threat has mainly been fueled 
 
 The CyberFedDefender dataset contains 1,430 instances and 23 features, including numerical attributes like Bytes Sent, Packets Received, and Duration. The target variable (Label) identifies normal (0) and attack (1) instances.
 
-3. Data Preprocessing
+2. Data Preprocessing
    
 •	Data Cleaning: Removed irrelevant features (Timestamp, Source IP, Destination IP) and verified no missing values.
 
@@ -37,10 +37,10 @@ The CyberFedDefender dataset contains 1,430 instances and 23 features, including
 
 •	Handling Imbalance: Applied SMOTE (Synthetic Minority Oversampling Technique) to address class imbalance.
 
-5. Model Implementation
+# 3. Model Implementation
 
 
-# Four ensemble models were evaluated: 
+ Four ensemble models were evaluated: 
 
 1.	Random Forest: Bagging-based method for high accuracy and stability.
    
@@ -50,14 +50,14 @@ The CyberFedDefender dataset contains 1,430 instances and 23 features, including
    
 7.	Voting Classifier: Combined multiple classifiers using hard and soft voting.
    
-4. Explainable AI (XAI)
+# 4. Explainable AI (XAI)
    
 •	SHAP: Used for global and local feature importance analysis.
 
 •	LIME: Provided instance-specific explanations for individual predictions.
  
  
- # 6. Evaluation Metrics 
+ # 5. Evaluation Metrics 
    
  **Performance was assessed using: **
 
@@ -68,6 +68,13 @@ The CyberFedDefender dataset contains 1,430 instances and 23 features, including
 •	Recall
 
 •	F1-Score
+
+
+# Results and Discussion
+
+ Model Performance:
+The results of the ensemble learning methods and individual classifiers on the CyberFedDefender dataset showcase exceptional performance across all metrics, with each model achieving perfect scores:
+Achieved an accuracy, precision, recall, and F1-score of 1.0, indicating the model's ability to perfectly classify the dataset without any errors.
 
 
 All models achieved perfect metrics, suggesting a dataset with high feature separability or potential issues like data leakage or overfitting.
@@ -98,14 +105,15 @@ Overfitting: Over-optimization on a limited dataset.
 
 Further testing on unseen data and increasing dataset complexity are recommended to validate the generalizability of these results.
 
+
 # Conclusion
 
 Using the Cyber Threat Detection dataset, this study efficiently employed ensemble learning methods for intrusion detection. The perfect classification metrics show the power of ensemble models but also emphasizes the necessity of further validations for these perfect metrics. SHAP (explainable AI tool): LIME both, explained the feature importance in-depth and enhanced the interpretability of model from the possible follow-up work, we suggest thorough testing of robustness with more complex datasets and adversarial scenarios practitioners in mind.
 
 
-GitHub Link: https://github.com/riponalmamun/-Cyber-Threat-Detection
+# GitHub Link: https://github.com/riponalmamun/-Cyber-Threat-Detection
 
-Dataset Link: https://www.kaggle.com/datasets/hussainsheikh03/cyber-threat-detection
+# Dataset Link: https://www.kaggle.com/datasets/hussainsheikh03/cyber-threat-detection
 
 
 
